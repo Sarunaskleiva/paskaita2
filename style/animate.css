@@ -1,0 +1,54 @@
+@keyframes race-ani {
+    0% {
+        
+    }
+    25% {
+        left: 700px;
+        top: 0px;
+    }
+
+    50% {
+        background: red;
+        border-color: black;
+        left: 700px;
+        top: 360px;
+    }
+
+    75% {
+        left: 0px;
+        top: 360px;
+    }
+    100% {
+    
+    }
+}
+
+@keyframes loading1{
+    0%{
+        transform: scaleY(0);
+    }
+    50%{
+        background: red;
+        transform: scaleY(1);
+    }
+    75%{
+        background: green;
+    }
+    100%{
+        transform: scaleY(0);
+    }
+}
+
+@keyframes spinner{
+    0%{
+transform: scale(1) rotate(0);
+    }
+    25%{
+        transform: scale(1.6) rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
